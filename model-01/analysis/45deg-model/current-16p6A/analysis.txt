@@ -1,0 +1,54 @@
+--- fieldmap ---
+timestamp:                          2018-11-23_12-17-29
+filename:                           2018-11-23_Spectrometer_X=-200_200mm_Z=-1000_1000mm_smoothed_NI=10004.0.txt
+magnet_label:                       Spectrometer
+magnet_length:                      1000.0 mm
+main_coil_current:                  16.6 A
+main_coil_NI:                       10004.0 A
+magnetic_gap:                       nan mm
+control_gap:                        nan mm
+ry_grid:                            1 point in [0.0,0.0] mm (step of 0.000000 mm)
+rx_grid:                            401 points in [-200.0,200.0] mm (step of 1.000000 mm)
+rz_grid:                            2001 points in [-1000.0,1000.0] mm (step of 1.000000 mm)
+by@(all)(axis):                     (min:-0.00010 max:+0.86466) (min:-0.00009 max:+0.86466) Tesla
+bx@(all)(axis):                     (min:-0.00009 max:+0.00007) (min:-0.00002 max:+0.00002) Tesla
+bz@(all)(axis):                     (min:-0.00009 max:+0.00008) (min:-0.00004 max:+0.00002) Tesla
+here:  True
+--- trajectory (rz > -745 mm) ---
+beam_energy:                        1.549333e-01 GeV
+horizontal_deflection_angle:        +4.4998e+01 deg.
+vertical_deflection_angle:          +0.0000e+00 deg.
+final_horizontal_angle:             +3.7477e+01 deg.
+final_vertical_angle:               +0.0000e+00 deg.
+trajectory_length:                  1984.9999999992901 mm
+trajectory_nrpts:                   19851
+trajectory_s_step:                  0.1 mm
+max_abs_bx@trajectory:              +0.000029 Tesla at (s,rx,ry,rz) = (945.5000000001464,62.721639416455545,0.0,174.06762235802637) mm
+max_abs_by@trajectory:              +0.864623 Tesla at (s,rx,ry,rz) = (773.5000000001073,-14.050838087216231,0.0,20.81299003575008) mm
+max_abs_bz@trajectory:              +0.000049 Tesla at (s,rx,ry,rz) = (526.7000000000512,-42.04674943629516,0.0,-222.64370105324628) mm
+rx position of reference point:     -72.744605 mm
+initial rx position of trajectory:  +25.366249 mm
+sagitta:                            0.0 mm
+--- multipoles on reference trajectory (rz > 0) ---
+effective_length:                   -78553582.55354826 mm
+perpendicular_grid:                 11 points in [-5.000000,+5.000000] mm
+max_fitting_error_normal            11.325/0.000 G/G
+max_fitting_error_skew              0.396/0.396 G/G
+r0_for_relative_multipoles          17.5 mm
+main_monomial                       n = 0, skew:False
+                                       Nn(s=0)      Integ_Nn     Nn/N0(@r0)   |    Sn(s=0)      Integ_Sn     Sn/S0(@r0)  
+<multipole_order n>                    [T/m^n]      [T.m/m^n]        []       |    [T/m^n]      [T.m/m^n]        []      
+n=00:                                1.4240e-05    +4.0587e-01   +1.0000e+00  |      ---           ---           ---     
+n=01:                                2.9004e-05    -2.7078e-02   -1.1675e-03  |      ---           ---           ---     
+n=02:                                9.7998e-04    -6.6308e-01   -5.0032e-04  |      ---           ---           ---     
+n=03:                                3.5318e-03    -2.7779e+00   -3.6681e-05  |      ---           ---           ---     
+--- model polynom_b (rz > 0). units: [m] for length, [rad] for angle and [m^(n-1)] for polynom_b ---
+ len[m]    angle[deg]  PolyB(n=0)   PolyB(n=1)   PolyB(n=2)   PolyB(n=3)   
+ 0.0800 ,  +0.00015 ,  +0.00e+00 ,  -1.36e-04 ,  -3.09e-03 ,  +5.55e-03 , 
+ 0.0200 ,  +0.00013 ,  +0.00e+00 ,  -3.06e-04 ,  -5.45e-03 ,  +6.28e-03 , 
+ 0.0200 ,  +0.00020 ,  +0.00e+00 ,  -4.30e-04 ,  -6.99e-03 ,  +1.70e-02 , 
+ 0.0200 ,  +0.00027 ,  +0.00e+00 ,  -6.02e-04 ,  -8.97e-03 ,  -5.42e-03 , 
+ 0.0200 ,  +0.00038 ,  +0.00e+00 ,  -8.43e-04 ,  -1.16e-02 ,  -2.91e-04 , 
+ 0.0200 ,  +0.00051 ,  +0.00e+00 ,  -1.18e-03 ,  -1.54e-02 ,  +6.14e-02 , 
+ 0.0300 ,  +0.00112 ,  +0.00e+00 ,  -1.83e-03 ,  -2.16e-02 ,  -9.55e-03 , 
+ 0.0300 , +22.49724 ,  +3.93e+01 ,  +1.75e+00 ,  -4.27e+01 ,  +1.79e+02 , 

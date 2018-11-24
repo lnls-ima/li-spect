@@ -1,0 +1,15 @@
+--- fieldmap ---
+timestamp:                          2018-11-23_11-18-51
+filename:                           2018-11-23_Spectrometer_X=-200_200mm_Z=-1000_1000mm_smoothed_NI=4821.2.txt
+magnet_label:                       Spectrometer
+magnet_length:                      1000.0 mm
+main_coil_current:                  8.0 A
+main_coil_NI:                       4821.2 A
+magnetic_gap:                       nan mm
+control_gap:                        nan mm
+ry_grid:                            1 point in [0.0,0.0] mm (step of 0.000000 mm)
+rx_grid:                            401 points in [-200.0,200.0] mm (step of 1.000000 mm)
+rz_grid:                            2001 points in [-1000.0,1000.0] mm (step of 1.000000 mm)
+by@(all)(axis):                     (min:-0.00000 max:+0.43145) (min:+0.00000 max:+0.43145) Tesla
+bx@(all)(axis):                     (min:-0.00005 max:+0.00004) (min:-0.00001 max:+0.00001) Tesla
+bz@(all)(axis):                     (min:-0.00004 max:+0.00004) (min:-0.00002 max:+0.00001) Tesla
