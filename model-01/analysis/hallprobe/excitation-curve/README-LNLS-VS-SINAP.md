@@ -10,7 +10,7 @@ value from TB dipoles' excitation curve is 127 Mev, a difference of ~12%.
 
 In order to assess the origin of this discrepancy we looked at the
 
-* M0) [https://github.com/lnls-ima/li-spect/blob/master/model-01/analysis/hallprobe/excitation-curve/magnets-measurement-data-from-Li-Xuan.xlsx](raw excitation data) provided by *SINAP* team
+* M0) [model-01/analysis/hallprobe/excitation-curve/magnets-measurement-data-from-Li-Xuan.xlsx](raw excitation data) provided by *SINAP* team
 
 and compared it to field measurements of the spectrometer done in the *LNLS*.
 There are two such measurements:
@@ -45,4 +45,4 @@ But when used in the code the coeffcients were truncated to
   * BL(I) = -0.0001 I² + 0.0294 I + 0.0016
 This truncation corresponds to an additional discrepancy of ~3%.
 
-See [https://github.com/lnls-ima/li-spect/blob/master/model-01/analysis/hallprobe/excitation-curve/lnls-vs-sinap.svg](the plot) comparing all excitation curves.
+See [model-01/analysis/hallprobe/excitation-curve/lnls-vs-sinap.svg](the plot) comparing all excitation curves.
