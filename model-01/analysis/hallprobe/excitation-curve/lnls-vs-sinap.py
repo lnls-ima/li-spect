@@ -28,7 +28,7 @@ lnls15 = ed.ExcitationData(filename_web='li-spect-15deg-lnls.txt')
 lnls45 = ed.ExcitationData(filename_web='li-spect-45deg-lnls.txt')
 sinap = ed.ExcitationData(filename_web='li-spect-sinap.txt')
 
-coeffs_sinap = [-0.000147, 0.029435, 0.0016115]
+coeffs_sinap = [-0.000147274, 0.0294354992, 0.0016115352]
 coeffs_sinap_truncated = [-0.0001, 0.0294, 0.0016]
 c = np.linspace(0, 20, 41)
 bl = np.polyval(coeffs_sinap_truncated, c)
